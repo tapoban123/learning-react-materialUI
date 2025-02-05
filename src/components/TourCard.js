@@ -31,7 +31,7 @@ const theme = createTheme({
   },
 });
 
-const TourCard = (tour) => {
+const TourCard = ({tour}) => {
   return (
     <Grid size={3}>
       <ThemeProvider theme={theme}>
